@@ -48,6 +48,16 @@ fun IntroScreen(){
             fontWeight = FontWeight.Bold,
             textAlign = TextAlign.Center
         )
+        Spacer(modifier = Modifier.height(32.dp))
+        Text(
+            text = stringResource(R.string.subTitle),
+            color = Color.DarkGray,
+            lineHeight = 24.sp,
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .padding(top = 16.dp)
+                .padding(horizontal = 16.dp)
+        )
     }
 
 }
