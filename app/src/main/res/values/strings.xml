@@ -4,4 +4,6 @@
     <string name="title">welcome to the digital store a gateway to the lasted tech</string>
     <string name="subTitle">Sign in t explore a wide range of digital products, Dont have an account yet
     register now to enjoy a seamless and secure shopping experience</string>
+    <string name="start">Let\'s get started</string>
+    <string name="signIn">already have an account, signIn</string>
 </resources>
