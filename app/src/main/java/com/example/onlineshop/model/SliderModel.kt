@@ -1,5 +1,5 @@
 package com.example.onlineshop.model
 
 data class SliderModel(
-    val url : String = ""
+    val url : Int = 0
 )
