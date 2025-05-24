@@ -6,4 +6,5 @@ import com.example.onlineshop.repository.MainRepository
 class MainViewModel: ViewModel() {
     private val repository = MainRepository()
 
+    val banner = repository.banners
 }
