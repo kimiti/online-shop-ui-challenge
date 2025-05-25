@@ -20,6 +20,11 @@ fun MainScreen(modifier: Modifier = Modifier) {
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
+                .constrainAs(ref = scrollList) {
+                    top.linkTo(anchor = parent.top)
+                    bottom.linkTo(anchor = parent.bottom)
+                    end.linkTo(anchor = parent.start)
+                }
         ) { }
     }
 
